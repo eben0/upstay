@@ -1,6 +1,6 @@
 # UpStay home assigment
 
-This is Python Flask app that serves the Titanic api
+This is Python Flask app that serves the UpStay api
 
 ## Prerequisites
 1. Python3 (3.9+ is recommended)
