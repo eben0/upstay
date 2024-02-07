@@ -32,7 +32,6 @@ class ReservationDao:
         room_leave = room_reservation.arrival_date + timedelta(days=room_reservation.nights)
 
         inventory = self.read_inventory().to_dict()["inventory"]
-        inventory["A"] -= 1
         df = self.read_csv()
         df = df[df["reservation_id"] != id]
 
