@@ -36,6 +36,4 @@ docker compose up --build
 | Endpoint             | Description      | Parameters  |
 |----------------------|------------------|-------------|
 | /                    | Home             |             |
-| /api/prices          | Prices quantiles | quantiles   |
-| /api/passengers      | List passengers  | limit, cols |
-| /api/passengers/{id} | List a passenger | cols        |
+
